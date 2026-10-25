@@ -86,8 +86,8 @@ A-HiSD is run with momentum 0.95 in the Rosenbrock example, with both 0.9
 and 0.95 in the neural-network example, and with 0.9 in the LdG example.
 Each experiment contains its own algorithm files and can be run independently.
 
-The model definitions and numerical updates are extracted from the research
-code and notebooks. `tol_curv` controls the curvature filter, and the
+The model definitions and numerical updates are extracted from the papaer.
+`tol_curv` controls the curvature filter, and the
 experiment's stopping tolerance controls gradient termination. The first
 two examples and the Landau-de Gennes scripts limit BLAS to four threads.
 The neural-network example uses PyTorch CPU float64 computations and one

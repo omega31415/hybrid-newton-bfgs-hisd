@@ -8,7 +8,7 @@ from typing import Tuple, Dict
 class AcceleratedHiSD:
     """A-HiSD with the discrete L2 metric and one LOBPCG update."""
 
-    def __init__(self, beta=0.01, gamma=0.9, tol=1e-06, h_eps=1e-06, minl=1e-10):
+    def __init__(self, beta=0.01, gamma=0.99, tol=1e-06, h_eps=1e-06, minl=1e-10):
         self.beta = beta
         self.gamma = gamma
         self.tol = tol

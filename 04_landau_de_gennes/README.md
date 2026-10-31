@@ -66,7 +66,8 @@ blocks to run that method on the same input. All four entries and all
 method configurations share the default limit `MAX_ITER = 10000`.
 
 HiSD-BB uses initial step 2e-4, zero momentum and BB step bounds
-[0.2, 5] times the initial step. A-HiSD uses step 8e-5 and momentum 0.9.
+[0.2, 5] times the initial step. A-HiSD uses step 8e-5 and momentum 0.99
+in all four searches, matching the server runs reported in the paper.
 The gradient tolerance and finite-difference settings are shared.
 HiSD-BB and A-HiSD may need more than 10000 updates to converge; some
 searches can require millions. Increase `MAX_ITER` in the selected entry

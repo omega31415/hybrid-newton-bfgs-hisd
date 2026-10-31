@@ -83,7 +83,7 @@ use memory length 5 in the first two experiments; the neural-network
 limited-memory version uses 10, and the Landau-de Gennes version uses 30.
 The LdG table's Hybrid method corresponds to `hn_lbfgs_hisd.py`.
 A-HiSD is run with momentum 0.95 in the Rosenbrock example, with both 0.9
-and 0.95 in the neural-network example, and with 0.9 in the LdG example.
+and 0.95 in the neural-network example, and with 0.99 in the LdG example.
 Each experiment contains its own algorithm files and can be run independently.
 
 The model definitions and numerical updates are extracted from the paper.

@@ -64,7 +64,7 @@ def main():
     # A-HiSD:
     # from accelerated_hisd import AcceleratedHiSD
     # solver = AcceleratedHiSD(
-    #     beta=8e-5, gamma=0.9, tol=STOP_TOL,
+    #     beta=8e-5, gamma=0.99, tol=STOP_TOL,
     #     h_eps=HVP_STEP, minl=MIN_HVP_STEP,
     # )
     # method_name = "A-HiSD"
